@@ -141,7 +141,7 @@ main:
 	# %eax -= 'a'
 	subl	$97, %eax
 	# 'q' - 'a' == 16
-	cmpl	$3, %eax
+	cmpl	$16, %eax
 	ja		.DEFAULT
 	# using jump table to handle multiwat branch (switch) 
 	jmp		*.JTABLE(,%eax, 8)
