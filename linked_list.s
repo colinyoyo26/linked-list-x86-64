@@ -116,5 +116,3 @@ main:
 	ret
 .LFE6:
 	.size	main, .-main
-	.ident	"GCC: (Ubuntu 7.4.0-1ubuntu1~16.04~ppa1) 7.4.0"
-	.section	.note.GNU-stack,"",@progbits
